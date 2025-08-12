@@ -1,0 +1,40 @@
+/* All common CSS files should start from here */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* All common CSS files should start from here */
+
+.chessboard {
+    height: 640px;
+    width: 640px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 2px solid black;
+}
+
+.white {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.black {
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+}
